@@ -7,9 +7,11 @@
 
 import Foundation
 
-class ParkBenchTimer {
+public typealias SimpleClosure = () -> Void
 
-    typealias SimpleClosure = () -> Void
+open class ParkBenchTimer {
+    
+    public init() { }
 
     public func add(a: Int, b: Int) -> Int {
         a + b
@@ -19,7 +21,7 @@ class ParkBenchTimer {
         a - b
     }
 
-    func measure(name: String = String.getRandomName(), _ functionToMeasure: @escaping SimpleClosure) {
+    public func measure(name: String = String.getRandomName(), _ functionToMeasure: @escaping () -> Void) {
         if #available(iOS 16.0, *) {
             let clock = ContinuousClock()
             let _result: ContinuousClock.Instant.Duration = clock.measure {
@@ -34,7 +36,7 @@ class ParkBenchTimer {
 
 extension String {
 
-    static func getRandomName() -> String {
+    public static func getRandomName() -> String {
         let _name = String(Date().timeIntervalSince1970)
         return _name
     }

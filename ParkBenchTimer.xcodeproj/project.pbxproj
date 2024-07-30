@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E6B06BB2C58852C003E7C75 /* ParkBenchTimer.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B06BA2C58852C003E7C75 /* ParkBenchTimer.docc */; };
+		1837C453DEBB6005C3026360 /* Pods_ParkBenchTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB91BF000AB498908FDA34C /* Pods_ParkBenchTimer.framework */; };
 		7E6B06C12C58852C003E7C75 /* ParkBenchTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6B06B62C58852C003E7C75 /* ParkBenchTimer.framework */; };
 		7E6B06C62C58852C003E7C75 /* ParkBenchTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B06C52C58852C003E7C75 /* ParkBenchTimerTests.swift */; };
 		7E6B06C72C58852C003E7C75 /* ParkBenchTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6B06B92C58852C003E7C75 /* ParkBenchTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +16,8 @@
 		7E6B06DB2C5889B9003E7C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6B06DA2C5889B9003E7C75 /* Assets.xcassets */; };
 		7E6B06DE2C5889B9003E7C75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6B06DD2C5889B9003E7C75 /* Preview Assets.xcassets */; };
 		7E6B06E42C588F59003E7C75 /* ParkBenchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B06E32C588F59003E7C75 /* ParkBenchTimer.swift */; };
+		86E58445CB3DF5CEF5A55AAA /* Pods_ParkBenchTimerExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5938DDA2A94E0F36857A4FB /* Pods_ParkBenchTimerExamples.framework */; };
+		E7366BC734B37105009C29E6 /* Pods_ParkBenchTimer_ParkBenchTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840147F052EA3E3AEDFA3BFA /* Pods_ParkBenchTimer_ParkBenchTimerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FFDDE907A31FB5E6E6CFDF8 /* Pods-ParkBenchTimer-ParkBenchTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkBenchTimer-ParkBenchTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-ParkBenchTimer-ParkBenchTimerTests/Pods-ParkBenchTimer-ParkBenchTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10781F9511A999DBBC3039E0 /* Pods-ParkBenchTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkBenchTimer.release.xcconfig"; path = "Target Support Files/Pods-ParkBenchTimer/Pods-ParkBenchTimer.release.xcconfig"; sourceTree = "<group>"; };
+		328B9E9A2ED4F67147B9FA22 /* Pods-ParkBenchTimerExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkBenchTimerExamples.release.xcconfig"; path = "Target Support Files/Pods-ParkBenchTimerExamples/Pods-ParkBenchTimerExamples.release.xcconfig"; sourceTree = "<group>"; };
+		6EB91BF000AB498908FDA34C /* Pods_ParkBenchTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkBenchTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6B06B62C58852C003E7C75 /* ParkBenchTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParkBenchTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6B06B92C58852C003E7C75 /* ParkBenchTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkBenchTimer.h; sourceTree = "<group>"; };
-		7E6B06BA2C58852C003E7C75 /* ParkBenchTimer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ParkBenchTimer.docc; sourceTree = "<group>"; };
 		7E6B06C02C58852C003E7C75 /* ParkBenchTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkBenchTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6B06C52C58852C003E7C75 /* ParkBenchTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkBenchTimerTests.swift; sourceTree = "<group>"; };
 		7E6B06D42C5889B7003E7C75 /* ParkBenchTimerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkBenchTimerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +53,11 @@
 		7E6B06DD2C5889B9003E7C75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E6B06DF2C5889B9003E7C75 /* ParkBenchTimerExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParkBenchTimerExamples.entitlements; sourceTree = "<group>"; };
 		7E6B06E32C588F59003E7C75 /* ParkBenchTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkBenchTimer.swift; sourceTree = "<group>"; };
+		840147F052EA3E3AEDFA3BFA /* Pods_ParkBenchTimer_ParkBenchTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkBenchTimer_ParkBenchTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9766AB0E5DFF329D84CE60 /* Pods-ParkBenchTimerExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkBenchTimerExamples.debug.xcconfig"; path = "Target Support Files/Pods-ParkBenchTimerExamples/Pods-ParkBenchTimerExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		D5938DDA2A94E0F36857A4FB /* Pods_ParkBenchTimerExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkBenchTimerExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99098F902308766F6AA2D41 /* Pods-ParkBenchTimer-ParkBenchTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkBenchTimer-ParkBenchTimerTests.release.xcconfig"; path = "Target Support Files/Pods-ParkBenchTimer-ParkBenchTimerTests/Pods-ParkBenchTimer-ParkBenchTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F181530748218AA8381608BF /* Pods-ParkBenchTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkBenchTimer.debug.xcconfig"; path = "Target Support Files/Pods-ParkBenchTimer/Pods-ParkBenchTimer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1837C453DEBB6005C3026360 /* Pods_ParkBenchTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E6B06C12C58852C003E7C75 /* ParkBenchTimer.framework in Frameworks */,
+				E7366BC734B37105009C29E6 /* Pods_ParkBenchTimer_ParkBenchTimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E58445CB3DF5CEF5A55AAA /* Pods_ParkBenchTimerExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D1B4B4043334620BAAB392F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F181530748218AA8381608BF /* Pods-ParkBenchTimer.debug.xcconfig */,
+				10781F9511A999DBBC3039E0 /* Pods-ParkBenchTimer.release.xcconfig */,
+				0FFDDE907A31FB5E6E6CFDF8 /* Pods-ParkBenchTimer-ParkBenchTimerTests.debug.xcconfig */,
+				E99098F902308766F6AA2D41 /* Pods-ParkBenchTimer-ParkBenchTimerTests.release.xcconfig */,
+				BA9766AB0E5DFF329D84CE60 /* Pods-ParkBenchTimerExamples.debug.xcconfig */,
+				328B9E9A2ED4F67147B9FA22 /* Pods-ParkBenchTimerExamples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7E6B06AC2C58852C003E7C75 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +109,8 @@
 				7E6B06C42C58852C003E7C75 /* ParkBenchTimerTests */,
 				7E6B06D52C5889B7003E7C75 /* ParkBenchTimerExamples */,
 				7E6B06B72C58852C003E7C75 /* Products */,
+				6D1B4B4043334620BAAB392F /* Pods */,
+				7E6B06F12C58D2E6003E7C75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				7E6B06B92C58852C003E7C75 /* ParkBenchTimer.h */,
-				7E6B06BA2C58852C003E7C75 /* ParkBenchTimer.docc */,
 				7E6B06E32C588F59003E7C75 /* ParkBenchTimer.swift */,
 			);
 			path = ParkBenchTimer;
@@ -134,6 +161,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7E6B06F12C58D2E6003E7C75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB91BF000AB498908FDA34C /* Pods_ParkBenchTimer.framework */,
+				840147F052EA3E3AEDFA3BFA /* Pods_ParkBenchTimer_ParkBenchTimerTests.framework */,
+				D5938DDA2A94E0F36857A4FB /* Pods_ParkBenchTimerExamples.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -152,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6B06CA2C58852C003E7C75 /* Build configuration list for PBXNativeTarget "ParkBenchTimer" */;
 			buildPhases = (
+				6F535D6EBD50F7DB010CF5B2 /* [CP] Check Pods Manifest.lock */,
 				7E6B06B12C58852C003E7C75 /* Headers */,
 				7E6B06B22C58852C003E7C75 /* Sources */,
 				7E6B06B32C58852C003E7C75 /* Frameworks */,
@@ -170,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6B06CD2C58852C003E7C75 /* Build configuration list for PBXNativeTarget "ParkBenchTimerTests" */;
 			buildPhases = (
+				875B1100BB06308D1510EE03 /* [CP] Check Pods Manifest.lock */,
 				7E6B06BC2C58852C003E7C75 /* Sources */,
 				7E6B06BD2C58852C003E7C75 /* Frameworks */,
 				7E6B06BE2C58852C003E7C75 /* Resources */,
@@ -189,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E6B06E02C5889B9003E7C75 /* Build configuration list for PBXNativeTarget "ParkBenchTimerExamples" */;
 			buildPhases = (
+				00660C2A794BF4359D543BFD /* [CP] Check Pods Manifest.lock */,
 				7E6B06D02C5889B7003E7C75 /* Sources */,
 				7E6B06D12C5889B7003E7C75 /* Frameworks */,
 				7E6B06D22C5889B7003E7C75 /* Resources */,
+				B865D3FED86B477D7E252131 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,13 +311,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00660C2A794BF4359D543BFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkBenchTimerExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F535D6EBD50F7DB010CF5B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkBenchTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875B1100BB06308D1510EE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkBenchTimer-ParkBenchTimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B865D3FED86B477D7E252131 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkBenchTimerExamples/Pods-ParkBenchTimerExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkBenchTimerExamples/Pods-ParkBenchTimerExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkBenchTimerExamples/Pods-ParkBenchTimerExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E6B06B22C58852C003E7C75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E6B06E42C588F59003E7C75 /* ParkBenchTimer.swift in Sources */,
-				7E6B06BB2C58852C003E7C75 /* ParkBenchTimer.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +566,7 @@
 		};
 		7E6B06CB2C58852C003E7C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F181530748218AA8381608BF /* Pods-ParkBenchTimer.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +605,7 @@
 		};
 		7E6B06CC2C58852C003E7C75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10781F9511A999DBBC3039E0 /* Pods-ParkBenchTimer.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +644,7 @@
 		};
 		7E6B06CE2C58852C003E7C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFDDE907A31FB5E6E6CFDF8 /* Pods-ParkBenchTimer-ParkBenchTimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +668,7 @@
 		};
 		7E6B06CF2C58852C003E7C75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99098F902308766F6AA2D41 /* Pods-ParkBenchTimer-ParkBenchTimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +692,7 @@
 		};
 		7E6B06E12C5889B9003E7C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA9766AB0E5DFF329D84CE60 /* Pods-ParkBenchTimerExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -585,13 +716,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maxmobile-software.co.ltd.ParkBenchTimerExamples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7E6B06E22C5889B9003E7C75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328B9E9A2ED4F67147B9FA22 /* Pods-ParkBenchTimerExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -615,8 +750,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.maxmobile-software.co.ltd.ParkBenchTimerExamples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

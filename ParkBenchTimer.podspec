@@ -14,7 +14,6 @@ Pod::Spec.new do |spec|
   #  can feel like a chore to fill in it's definitely to your advantage. The
   #  summary should be tweet-length, and the description more in depth.
   #
-  spec.swift_versions = "5.0"
   spec.name         = "ParkBenchTimer"
   spec.version      = "0.0.1"
   spec.summary      = "A Cocoapod library written in Swift"
@@ -67,7 +66,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "15.0"
+  spec.swift_versions = "5.0"
   # spec.osx.deployment_target = "10.13"
   # spec.watchos.deployment_target = "5.0"
   # spec.tvos.deployment_target = "12.0"

@@ -6,19 +6,30 @@
 //
 
 import SwiftUI
+import ParkBenchTimer
 
 struct ContentView: View {
+    @State private var parkBenchTimer: ParkBenchTimer = ParkBenchTimer()
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Text("\(parkBenchTimer.add(a: 1, b: 1))")
         }
         .padding()
+        .onAppear {
+            self.parkBenchTimer.measure {
+                self.printALoop()
+            }
+        }
     }
-}
-
-#Preview {
-    ContentView()
+    
+    private func printALoop() {
+        for i in 0..<1000 {
+            print("Hello \(i)")
+        }
+    }
 }
