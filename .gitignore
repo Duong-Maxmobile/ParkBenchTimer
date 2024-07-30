@@ -1,0 +1,254 @@
+# Xcode
+.DS_Store
+!.gitignore
+*.swp
+*~
+
+# Xcode build
+build/
+DerivedData/
+*.hmap
+
+# Xcode iOS specific
+*.moved-aside
+*.xcuserstate
+
+# User-specific
+*.xcuserdatad
+*.xcuserdata
+*.xcuserstate
+
+# Workspace data
+xcuserdata/
+xcuserdata/yourusername.xcuserdatad
+xcshareddata/
+*.xcworkspace/xcuserdata/
+
+# Project files
+xcuserdata
+!default.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/*.xcworkspace/xcuserdata/
+
+# Xcode 8 and earlier
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode 9 and later
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode 13 and later
+*.xccheckout
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+.build/
+.build/checkouts
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+
+# Swift Package Manager .netrc file
+.netrc
+
+# Archives
+*.xcarchive
+
+# Unit Test / Xcode
+*.xctest
+*.xcscheme
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Custom DerivedData Path
+DerivedData/
+
+# Custom Products
+*.rmeta
+
+# Temporary files
+tmp/
+temp/
+
+# OS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Others
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.moved-aside
+*.pbxuser
+*.perspective
+
+# Generated Index files
+*.hmap
+
+# Derived Data
+DerivedData/
+
+# Personal settings
+*.xcuserdatad
+
+# Shared workspace settings
+*.xcscmblueprint
+
+# Additional recommended exclusions
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# System files
+*.orig
+
+# Temporary files created by editors
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Output of 'npm pack'
+*.tgz
+
+# Compiled Python files
+*.pyc
+
+# JetBrains IDEs
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ruby
+.rvm/
+.rbenv-*
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# VirtualBox
+*.vbox*
+*.vdi
+
+# macOS
+*.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Bundle artifacts
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Local Pods
+Development Pods/
+
+# CocoaPods keys
+*.keychain
+
+# SwiftGen
+.swiftgen/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Realm
+*.realm
+*.realm.lock
+*.realm.management
+
+# Xcode 13 and later
+xcdebugger/
+*.xcassets
+.xcodeproj/
+.project
+.workspace
+
+# Xcode 14 and later
+.xcodeproj/
+.project
+.workspace
+
+# Xcode 15 and later
+.xcodeproj/
+.project
+.workspace

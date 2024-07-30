@@ -15,6 +15,7 @@
 		7E6B06D92C5889B7003E7C75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B06D82C5889B7003E7C75 /* ContentView.swift */; };
 		7E6B06DB2C5889B9003E7C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6B06DA2C5889B9003E7C75 /* Assets.xcassets */; };
 		7E6B06DE2C5889B9003E7C75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6B06DD2C5889B9003E7C75 /* Preview Assets.xcassets */; };
+		7E6B06E42C588F59003E7C75 /* ParkBenchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6B06E32C588F59003E7C75 /* ParkBenchTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		7E6B06DA2C5889B9003E7C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E6B06DD2C5889B9003E7C75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7E6B06DF2C5889B9003E7C75 /* ParkBenchTimerExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ParkBenchTimerExamples.entitlements; sourceTree = "<group>"; };
+		7E6B06E32C588F59003E7C75 /* ParkBenchTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkBenchTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				7E6B06B92C58852C003E7C75 /* ParkBenchTimer.h */,
 				7E6B06BA2C58852C003E7C75 /* ParkBenchTimer.docc */,
+				7E6B06E32C588F59003E7C75 /* ParkBenchTimer.swift */,
 			);
 			path = ParkBenchTimer;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6B06E42C588F59003E7C75 /* ParkBenchTimer.swift in Sources */,
 				7E6B06BB2C58852C003E7C75 /* ParkBenchTimer.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +493,7 @@
 		7E6B06CE2C58852C003E7C75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9P6FC4HQ28;
@@ -505,6 +510,7 @@
 		7E6B06CF2C58852C003E7C75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9P6FC4HQ28;

@@ -30,7 +30,32 @@ final class ParkBenchTimerTests: XCTestCase {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+            let _ = parkBenchTimer.add(a: 1, b: 1)
         }
     }
 
+    var parkBenchTimer: ParkBenchTimer!
+    
+    override func setUp() {
+        parkBenchTimer = .init()
+    }
+    
+    func testAdd() {
+        XCTAssertEqual(parkBenchTimer.add(a: 1, b: 1), 2)
+    }
+    
+    func testSub() {
+        XCTAssertEqual(parkBenchTimer.sub(a: 2, b: 1), 1)
+    }
+    
+//    func testMeasure() {
+//        let _duration = parkBenchTimer.measure {
+//            self.parkBenchTimer.add(a: 2, b: 1)
+//            XCTAssertNotEqual(_duration, .zero)
+//        }
+//    }
+    
+    func testRandomName() {
+        XCTAssertNotEqual(String.getRandomName(), String.getRandomName())
+    }
 }
