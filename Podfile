@@ -18,5 +18,5 @@ target 'ParkBenchTimerExamples' do
   use_frameworks!
 
   # Pods for ParkBenchTimerExamples
-  pod 'ParkBenchTimer', '0.0.1'
+  pod 'ParkBenchTimer', '0.0.2'
 end
